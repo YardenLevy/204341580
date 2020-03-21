@@ -29,6 +29,67 @@
         <a href="#Q&A"><i class="fa fa-info-circle"></i>Q&A</a>
         <a href="#ContactMe"><i class="fa fa-fw fa-envelope"></i>Contact Me</a>
 </div>
+	<div class="main">
+        <h2 style="text-align:center" style="font-family:'monospace'" id="AboutMe">
+            <p class="subtitle fancy"><span style="font-family:'monospace'">About Me</span></p>
+        </h2>
+        <p align="center">
+            My name is Yarden Levy, I'm 26 years old. Originally from Hertzliya and now lives in Beer Sheva with my boy friend.<br> 
+			I'm a third year student in the Software and Information Systems Engineering Department (
+            <a href="https://in.bgu.ac.il/en/engn/sise/Pages/default.aspx">SISE</a> )
+            at Ben Gurion University of the negev.<br>
+			If I'm not busy studing I love to dedicate time for workout, mostly running, or reading books.<br>
+            That assignment was hard for me because I never experimented with creatinf websites before.<br>
+            Because of that it was a big challenge for me. The hardest part was to learn how to programming in html.<br>
+            My expectation from the course is to learn interesting things and finish it with a lot of knowledge about building websites.
+        </p>
+
+
+            <h2 style="text-align:center" id="MyPhotos"><br>
+                <p class="subtitle fancy"><span style="font-family:'monospace'">My Photos</span></p>
+            </h2>
+
+            <div class="w3-content w3-display-container" style="border:10px solid whitesmoke">
+                <img class="mySlides"
+                    src="https://scontent.ftlv15-1.fna.fbcdn.net/v/t1.0-0/p206x206/72720935_10215333315631481_5927980017320460288_n.jpg?_nc_cat=105&_nc_sid=0be424&_nc_ohc=gHazdquH-OQAX9LdjTG&_nc_ht=scontent.ftlv15-1.fna&_nc_tp=6&oh=f4537fdc7e4b192c610def555af3a9f7&oe=5E9CD888"
+                    style="width:100%">
+                <img class="mySlides"
+                    src="https://scontent.ftlv15-1.fna.fbcdn.net/v/t1.0-0/p206x206/69980919_10215115834194581_8119323068188327936_n.jpg?_nc_cat=107&_nc_sid=0be424&_nc_ohc=6AgWJe7sWCkAX84YfyW&_nc_ht=scontent.ftlv15-1.fna&_nc_tp=6&oh=bc07b1d831f88f6b1ea10c6fd102f300&oe=5E9A44DE"
+                    style="width:100%">
+                <img class="mySlides"
+                    src="https://scontent.ftlv15-1.fna.fbcdn.net/v/t1.0-9/p960x960/49051926_10213466330078009_5010690082248589312_o.jpg?_nc_cat=104&_nc_sid=8024bb&_nc_ohc=Bw6vif7nk2EAX_sU_4H&_nc_ht=scontent.ftlv15-1.fna&_nc_tp=6&oh=7828ae64a33ce4ae09638ac5f96eece7&oe=5E9B5A6D"
+                    style="width:90%" ,style="height:30%">
+                <img class="mySlides"
+                    src="https://scontent.ftlv15-1.fna.fbcdn.net/v/t1.0-0/p640x640/46366160_10217870570094946_7631836639345508352_o.jpg?_nc_cat=108&_nc_sid=e007fa&_nc_ohc=8Vpr4bEj8WYAX_Zg6Dv&_nc_ht=scontent.ftlv15-1.fna&_nc_tp=6&oh=f4ec113a03fe81c196fe70c3737c228e&oe=5E9B070B"
+                    style="width:100%">
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) {
+                        slideIndex = 1
+                    }
+                    if (n < 1) {
+                        slideIndex = x.length
+                    }
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    x[slideIndex - 1].style.display = "block";
+                }
+            </script>
+</div>
 		  
 <section id="about" class="section">
 <br/>
