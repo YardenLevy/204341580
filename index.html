@@ -21,16 +21,16 @@
 </head>
 <body>
 <div class="navbar">
-        <a href="#AboutMe"> <i class="fa fa-id-card"></i> About Me</a>
-        <a href="#MyPhotos"> <i class="fa fa-camera-retro"></i>My Photos</a>
+        <a href="#About Me"> <i class="fa fa-id-card"></i> About Me</a>
+        <a href="#My Photos"> <i class="fa fa-camera-retro"></i>My Photos</a>
         <a href="#MyPlaylist"><i class="fa fa-music"></i>My Playlist</a>
-        <a href="#Like"><i class="fa fa-thumbs-up"></i>Like</a>
+        <a href="#Give me a Like"><i class="fa fa-thumbs-up"></i>Like</a>
         <a href="#QRCode"><i class="fa fa-barcode"></i>QR Code</a>
         <a href="#Q&A"><i class="fa fa-info-circle"></i>Q&A</a>
         <a href="#ContactMe"><i class="fa fa-fw fa-envelope"></i>Contact Me</a>
 </div>
 	<div class="main">
-        <h2 style="text-align:center" style="font-family:'monospace'" id="AboutMe">
+        <h2 style="text-align:center" style="font-family:'monospace'" id="About Me">
             <p class="subtitle fancy"><span style="font-family:'monospace'">About Me</span></p>
         </h2>
         <p align="center">
@@ -45,14 +45,11 @@
         </p>
 
 
-            <h2 style="text-align:center" id="MyPhotos"><br>
+            <h2 style="text-align:center" id="My Photos"><br>
                 <p class="subtitle fancy"><span style="font-family:'monospace'">My Photos</span></p>
             </h2>
 
             <div class="w3-content w3-display-container" style="border:10px solid whitesmoke">
-                <img class="mySlides"
-                    src="https://scontent.ftlv15-1.fna.fbcdn.net/v/t1.0-0/p206x206/72720935_10215333315631481_5927980017320460288_n.jpg?_nc_cat=105&_nc_sid=0be424&_nc_ohc=gHazdquH-OQAX9LdjTG&_nc_ht=scontent.ftlv15-1.fna&_nc_tp=6&oh=f4537fdc7e4b192c610def555af3a9f7&oe=5E9CD888"
-                    style="width:100%">
                 <img class="mySlides"
                     src="https://scontent.ftlv15-1.fna.fbcdn.net/v/t1.0-0/p206x206/69980919_10215115834194581_8119323068188327936_n.jpg?_nc_cat=107&_nc_sid=0be424&_nc_ohc=6AgWJe7sWCkAX84YfyW&_nc_ht=scontent.ftlv15-1.fna&_nc_tp=6&oh=bc07b1d831f88f6b1ea10c6fd102f300&oe=5E9A44DE"
                     style="width:100%">
@@ -65,19 +62,19 @@
 		<img class="mySlides"
                     src="https://scontent.ftlv15-1.fna.fbcdn.net/v/t1.0-9/p960x960/86730661_10216343200957983_4558913823980912640_o.jpg?_nc_cat=107&_nc_sid=dd7718&_nc_ohc=qhP81eyUBnQAX_z1M27&_nc_ht=scontent.ftlv15-1.fna&_nc_tp=6&oh=4adc28efc1225742c90eb257d545e12f&oe=5E9DC31A"
                     style="width:100%">
-                <button class="w3-button w3-black w3-display-left" onclick="changepic(-1)">&#10094;</button>
-                <button class="w3-button w3-black w3-display-right" onclick="changepic(1)">&#10095;</button>
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
             </div>
 
             <script>
                 var slideIndex = 1;
-                showPic(slideIndex);
+                showDivs(slideIndex);
 
-                function changepic(n) {
+                function plusDivs(n) {
                     showDivs(slideIndex += n);
                 }
 
-                function showPic(n) {
+                function showDivs(n) {
                     var i;
                     var x = document.getElementsByClassName("mySlides");
                     if (n > x.length) {
@@ -99,47 +96,16 @@
             <p align="center"> <iframe width="980" height="400" src="https://www.youtube.com/embed/bo_efYhYU2A"
                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe></p>
+	    <h2 style="text-align:center" id="Give me a Like"> <br>
+                <p class="subtitle fancy"><span>Like</span><br><br><br></p>
+            </h2>
+	    <p align="center"><iframe
+               src=""
+               width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+               allowTransparency="true" allow="encrypted-media"></iframe></p>
 </div>
 		  
-<section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
-</section>
 
-<section id="photos" class="section">
-
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="playlist" class="section">
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
-</section>
 
 <section id="like" class="section">
 <br/>
