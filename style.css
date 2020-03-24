@@ -11,22 +11,3 @@ html {
   background-size: cover;
   scroll-behavior: smooth;
 }
-.navbar {
-  overflow: hidden;
-  background-color: #F0FFFF;
-  position: fixed;
-  z-index: 10;
-  top: 0;
-  width: 100%;
-
-}
-
-.navbar a {
-  font-family: "Fira Code", monospace;
-  float: left;
-  display: block;
-  color: #8B0000;
-  padding: 1px 30px;
-  text-decoration: none;
-  font-size: 14.5px;
-}
