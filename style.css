@@ -13,7 +13,7 @@ html {
 }
 .navbar {
   overflow: hidden;
-  background-color: #000000;
+  background-color: #F0FFFF;
   position: fixed;
   z-index: 10;
   top: 0;
@@ -23,9 +23,9 @@ html {
 
 .navbar a {
   font-family: "Fira Code", monospace;
-  float: center;
+  float: left;
   display: block;
-  color: #edfffa;
+  color: #8B0000;
   padding: 1px 30px;
   text-decoration: none;
   font-size: 14.5px;
