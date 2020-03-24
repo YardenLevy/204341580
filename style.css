@@ -12,20 +12,7 @@ html {
   scroll-behavior: smooth;
 }
 .navbar {
-  overflow: hidden;
-  background-color: #F0FFFF;
   position: fixed;
-  z-index: 10;
-  top: 0;
-  width: 70%;
 
 }
-.navbar a {
-  font-family: "Fira Code", monospace;
-  float: left;
-  display: block;
-  color: #DC143C;
-  padding: 1px 30px;
-  text-decoration: none;
-  font-size: 14.5px;
-}
+
