@@ -13,7 +13,7 @@ html {
 }
 .navbar {
   overflow: hidden;
-  background-color: #FFB6C1;
+  background-color:#F5F5DC;
   position: fixed;
   z-index: 10;
   top: 0;
