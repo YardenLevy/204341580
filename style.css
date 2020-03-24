@@ -3,7 +3,7 @@
 }
 
 html {
-  background: url("https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-11-full.jpg") no-repeat center center fixed;
+  background: url("https://png.pngtree.com/element_our/md/20180206/md_5a794c39cb442.jpg") no-repeat center center fixed;
   ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -127,7 +127,7 @@ img {
 
 .navbar {
   overflow: hidden;
-  background-color: #4D6466;
+  background-color: #FFF8DC;
   position: fixed;
   z-index: 10;
   top: 0;
@@ -139,7 +139,7 @@ img {
   font-family: "Fira Code", monospace;
   float: left;
   display: block;
-  color: #edfffa;
+  color: #C71585;
   padding: 1px 30px;
   text-decoration: none;
   font-size: 14.5px;
