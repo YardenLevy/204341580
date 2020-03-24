@@ -11,7 +11,19 @@ html {
   background-size: cover;
   scroll-behavior: smooth;
 }
+img {
+  width: auto;
+  max-height: auto;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #F5F5DC;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%;
 
+}
 .navbar a {
   font-family: "Fira Code", monospace;
   float: left;
