@@ -1,18 +1,9 @@
-* {
-  cursor: url(http://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), auto !important;
-}
-
-html {
-  background: url("https://png.pngtree.com/element_our/md/20180206/md_5a794c39cb442.jpg") no-repeat center center fixed;
-  ;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  scroll-behavior: smooth;
-}
-.navbar {
-  position: fixed;
-
+  
+#menu
+{
+	position: fixed;
+	width: 100%;
+	height: 35px;
+	background: white;
 }
 
